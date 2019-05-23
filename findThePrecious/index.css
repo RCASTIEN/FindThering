@@ -1,0 +1,175 @@
+@font-face {
+  font-family: aniron;
+  src: url("anirm___.ttf");
+}
+
+@font-face {
+  font-family: tengwar;
+  src: url("tngan.ttf");
+}
+
+@font-face {
+  font-family: party;
+  src: url("partybusiness.ttf");
+}
+
+.container {
+  max-width: 2000px;
+}
+
+.reward {
+  position: absolute;
+  font-family: party;
+  border: 1px solid #dcdcdc;
+  padding: 10px;
+  box-shadow: -10px -10px 20px 30px #dcdcdc;
+  left: 50px;
+  top: 50px;
+  font-size: 30px;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: #dcdcdc;
+  opacity: 0.4;
+  border-radius: 10px;
+}
+
+.dead {
+  position: absolute;
+  font-family: party;
+  left: 60px;
+  top: 50px;
+  font-size: 90px;
+  color: orangered;
+}
+
+.price {
+  color: orangered;
+}
+
+.imgwanted {
+  opacity: 0.3;
+}
+
+.gandalf {
+  position: absolute;
+  font-family: party;
+  font-size: 40px;
+  color: white;
+  left: 100px;
+  top: 200px;
+}
+
+.pimgwanted:hover img {
+  opacity: 1;
+}
+
+.pimgwanted:hover p {
+  opacity: 0;
+}
+
+.pimgwanted:hover .gandalf {
+  position: absolute;
+  font-family: party;
+  font-size: 30px;
+  color: white;
+  top: 300px;
+  left: 140px;
+}
+
+.banniere p {
+  width: 100%;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  text-align: justify;
+  font-size: 65px;
+  font-family: party;
+}
+
+td {
+  border: 1px solid #000000;
+}
+
+th {
+  border: 1px solid #000000;
+}
+
+.navbarUnderline a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.navbarUnderline:hover a {
+  border-bottom: 3px solid white;
+  font-weight: bold;
+}
+
+.navbarColor {
+  background-color: tomato;
+  color: white;
+  font-family: aniron;
+}
+
+.pillHover {
+  font-size: 15px;
+  font-family: aniron;
+  background-color: white;
+  color: grey;
+}
+
+.sign2 {
+  font-family: tengwar;
+  color: transparent;
+}
+
+.myPills {
+  text-align: center;
+}
+
+.pillHover:hover {
+  text-decoration: underline;
+  color: tomato;
+  font-weight: bolder;
+}
+
+.pillHover:hover .sign2 {
+  text-decoration: underline;
+  color: tomato;
+  font-weight: bolder;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-family: aniron;
+}
+
+.sign {
+  font-family: tengwar;
+  color: tomato;
+}
+
+.bgcolor {
+  background-color: #000000;
+}
+
+.card-body {
+  font-family: party;
+  font-size: 30px;
+  color: white;
+}
+
+.txtdeco {
+  text-decoration: line-through tomato;
+  font-size: 50px;
+}
+
+.sticky-top {
+  position: sticky;
+}
